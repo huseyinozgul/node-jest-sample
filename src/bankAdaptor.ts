@@ -1,5 +1,5 @@
 import { BankA, BankB } from './banks';
-import NotImplementedError from './errors/NotImpementedError';
+import { NotImplementedError } from './errors';
 import { BankInterface, BankTransferInput, TransferInput, TransferOutput } from "./types/bankTypes";
 
 const Banks: Array<BankInterface> = [BankA.defaultInstance, BankB.defaultInstance];
